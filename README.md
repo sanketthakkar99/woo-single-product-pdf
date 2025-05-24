@@ -1,14 +1,5 @@
 # Woo Single Product PDF
 
-**Contributors:** Sanket Thakkar
-**Tags:** WooCommerce, PDF, Product Catalog, Download
-**Requires at least:** 5.0
-**Tested up to:** 6.5
-**Requires PHP:** 7.4
-**Stable tag:** 1.0.0
-**License:** GPLv2 or later
-**License URI:** [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
-
 Generate a downloadable PDF catalog directly from individual WooCommerce product pages.
 
 ---
