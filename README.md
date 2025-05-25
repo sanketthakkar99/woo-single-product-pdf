@@ -27,11 +27,7 @@ Generate a downloadable PDF catalog directly from individual WooCommerce product
 
    * Activate the plugin through the **Plugins** menu in WordPress.
 
-3. **Install Dependencies:**
-
-   * Make sure the `dompdf/dompdf` library is available. You can run `composer install` if using the full package from source.
-
-4. **Use Shortcode:**
+3. **Use Shortcode:**
 
    * Add `[wspdf_download_button]` to any single product page template or use a hook to insert it dynamically.
 
@@ -54,13 +50,6 @@ This will render a "Download Product PDF" button on product pages. When clicked,
 * The plugin uses `template_redirect` to hook into page requests and generate the PDF.
 * All logic is encapsulated in `includes/class-wspdf-generator.php`.
 * Uses `dompdf` for PDF generation. Ensure it is installed and autoloaded via Composer.
-
----
-
-## Screenshots
-
-1. **PDF Download Button** – Visible on single product pages.
-2. **Generated PDF Output** – A printable, branded product detail PDF.
 
 ---
 
